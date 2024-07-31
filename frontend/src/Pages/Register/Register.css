@@ -1,0 +1,35 @@
+.login-page {
+    display: flex;
+    justify-content: center;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    min-height: 80%;
+    height: 100%;
+}
+
+.login-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    min-width: 400px;
+    padding: 10px;
+}
+
+form input {
+    padding: 15px;
+    font-size: 15px;
+}
+
+form button {
+    padding: 10px;
+    border: none;
+    background-color: rgb(140 208 227);
+    cursor: pointer;
+}

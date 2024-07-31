@@ -1,0 +1,45 @@
+.my-orders {
+    margin: 40px 0px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.my-orders h1 {
+    text-align: center;
+    font-weight: 300;
+}
+
+.my-orders p {
+    text-align: center;
+}
+
+.order-collection {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+
+.explore {
+    background-color: rgb(116, 210, 231);
+    width: 15%;
+    margin: auto;
+    padding: 15px 25px;
+    font-size: 15px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.each-order-item {
+    width: 50%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.each-order-item img {
+    max-width: 150px;
+}

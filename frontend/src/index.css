@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    /* This will inherit the color from its parent element */
+}
+
+
+body {
+    font-family: outfit;
+}
+
+hr {
+    border: 0.5px solid black;
+}

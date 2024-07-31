@@ -1,0 +1,110 @@
+.prefooter{
+    margin-top: 40px;
+}
+
+.prefooter-1{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin: auto;
+}
+
+.prefooter-1 h2{
+    text-align:center;
+    font-weight: 200;
+    margin-bottom: 20px;
+}
+
+.prefooter-1 p{
+    text-align:center;
+    font-weight: 200;
+    margin-bottom: 20px;
+}
+
+.types{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(300px,1fr));
+    gap: 10px;
+    padding: 10px 20px;
+}
+
+.each-type{
+    padding: 10px;
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.each-type img{
+    width: 100%;
+}
+
+.each-type h2{
+    font-size: 20px;
+    font-weight: 200;
+    text-align: center;
+}
+
+.prefooter-2{
+    margin-bottom: 40px;
+}
+
+.prefooter-2 h2{
+    text-align:center;
+    font-weight: 200;
+    margin-bottom: 20px;
+}
+
+.prefooter-2 p{
+    text-align:center;
+    font-weight: 200;
+    margin-bottom: 20px;
+}
+
+.socials{
+    width: 80%;
+    margin:auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(300px,1fr));
+    gap: 10px;
+    padding: 10px 20px;
+}
+
+.socials img{
+    position: relative;
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+    transition: opacity 0.3s ease;
+}
+
+/* hover feature need to be done */
+
+.prefooter-3{
+    background-color: #e8f6f9;
+    padding: 60px;
+}
+
+.prefooter-3-title{
+    width: 60%;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.prefooter-3-title h2{
+    font-weight: 200;
+}
+
+.sister-brands{
+    width: 60%;
+    margin: auto;
+    display:grid;
+    grid-template-columns: repeat(auto-fill,minmax(300px,1fr));
+    gap:10px
+}
+
+.sister-brands img{
+    width: 100%;
+}

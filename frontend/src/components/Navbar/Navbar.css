@@ -1,0 +1,254 @@
+.nav-bar {
+    min-width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.nav-top {
+    padding: 15px;
+    background-image: linear-gradient(270.11deg, rgb(187, 166, 221) 0.1%, rgb(239, 191, 230) 99.91%);
+}
+
+.nav-top p {
+    text-align: center;
+}
+
+.nav-bottom {
+    padding: 0px 30px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(140 208 227);
+}
+
+.nav-bottom-1 {
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.best-sellers {
+    position: relative;
+}
+
+.best-seller-popup {
+    position: absolute;
+    display: none;
+}
+
+.best-seller-popup {
+    cursor: pointer;
+    transition: 2s;
+}
+
+.best-seller-popup p {
+    font-size: 13px;
+}
+
+.best-sellers:hover .best-seller-popup {
+    top: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 5px;
+    min-width: 250px;
+    width: 100%;
+    background-color: white;
+    color: black;
+    padding: 30px;
+    border: 1px solid black;
+    z-index: 100;
+
+}
+
+.nav-bottom-1 .bliss-logo {
+    width: 140px;
+}
+
+.side-bar {
+    background-color: transparent;
+    border: none;
+    outline: none;
+}
+
+.side-icons {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.side-icon {
+    width: 200px;
+}
+
+.nav-bottom-2 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.options {
+    list-style-type: none;
+    display: flex;
+    gap: 15px;
+}
+
+.active {
+    border-bottom: 3px solid white;
+}
+
+.nav-bar {
+    position: relative;
+}
+
+.skincare-popup {
+    position: absolute;
+    top: 100%;
+    /* Adjust this value as needed */
+    left: 0;
+    display: none;
+    width: 100%;
+    padding: 20px;
+    background-color: white;
+    color: black;
+    z-index: 100;
+}
+
+.skincare-popup img {
+    width: 300px;
+}
+
+.skin-care:hover .skincare-popup {
+    display: flex;
+    align-items: column;
+    justify-content: space-around;
+}
+
+.category ul,
+.collections ul,
+.spf ul {
+    list-style-type: none;
+}
+
+.category {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.category ul li {
+    margin-bottom: 10px;
+}
+
+.spf {
+    font-style: italic;
+}
+
+.concern {
+    position: relative;
+}
+
+.concern-popup {
+    position: absolute;
+    display: none;
+    font-size: 13px;
+}
+
+.concern:hover .concern-popup {
+    top: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 5px;
+    min-width: 250px;
+    width: 100%;
+    background-color: white;
+    color: black;
+    padding: 30px;
+    border: 1px solid black;
+    z-index: 100;
+    cursor: pointer;
+}
+
+
+/**/
+
+.nav-bar {
+    position: relative;
+}
+
+.skincare-popup {
+    position: absolute;
+    top: 100%;
+    /* Adjust this value as needed */
+    left: 0;
+    display: none;
+    width: 100%;
+    padding: 20px;
+    background-color: white;
+    color: black;
+    z-index: 100;
+}
+
+.skincare-popup img {
+    width: 300px;
+}
+
+.body:hover .skincare-popup {
+    display: flex;
+    align-items: column;
+    justify-content: space-around;
+}
+
+.category ul,
+.collections ul,
+.spf ul {
+    list-style-type: none;
+}
+
+.category {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.category ul li {
+    margin-bottom: 10px;
+}
+
+.spf {
+    font-style: italic;
+}
+
+.set {
+    position: relative;
+}
+
+.concern-popup {
+    position: absolute;
+    display: none;
+    font-size: 13px;
+}
+
+.sets:hover .concern-popup {
+    top: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 5px;
+    max-width: 250px;
+    width: 100%;
+    background-color: white;
+    color: black;
+    padding: 30px;
+    border: 1px solid black;
+    z-index: 100;
+    cursor: pointer;
+}
+
+.search-icon:hover {}

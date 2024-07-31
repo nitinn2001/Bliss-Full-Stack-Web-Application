@@ -1,0 +1,404 @@
+.checkout {
+    width: 100%;
+}
+
+.checkout input {
+    border: 0.5px solid black;
+    border-radius: 4px;
+    padding: 20px;
+}
+
+.bliss-logo {
+    cursor: pointer;
+}
+
+.checkout-navbar {
+    min-width: 100%;
+    width: 100%;
+    background-color: rgb(116, 210, 231);
+    padding: 30px;
+}
+
+.checkout-navbar-icons img {
+    width: 140px;
+}
+
+.checkout-navbar-icons {
+    width: 75%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.checkout-main-content {
+    width: 100%;
+    display: flex;
+    /* align-items: center; */
+}
+
+.main-content-left {
+    min-height: 100vh;
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 30px;
+}
+
+.left-container {
+    width: 70%;
+    padding: 50px 0px;
+}
+
+.left-container,
+.right-container {
+    height: 100%;
+}
+
+.credit-card {
+    padding: 10px 10px;
+}
+
+.continue {
+    font-size: 18px;
+    color: #333;
+}
+
+.account-toggle {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    padding: 10px 0;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 10px;
+}
+
+.email {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 10px;
+}
+
+.content {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease, padding 0.3s ease;
+    padding: 0;
+}
+
+.content.show {
+    max-height: 50px;
+    /* Adjust based on your content */
+    padding: 10px 0;
+}
+
+.logout {
+    padding: 10px 20px;
+    border: none;
+    color: black;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.not-logged-in {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.contact-option {
+    width: 100%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0px;
+}
+
+.contact-option button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.contact-email {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.contact-checkbox {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+}
+
+
+
+
+.delivery-form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.title {
+    padding: 20px;
+}
+
+.name {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.firstName,
+.lastName {
+    width: 48%;
+}
+
+.location {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.city,
+.state,
+.zip {
+    width: 30%;
+}
+
+.delivery-bottom {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.shipping-method {
+    padding: 10px;
+    width: 100%;
+}
+
+.shipping-method input {
+    width: 100%;
+}
+
+.top-text {
+    margin-bottom: 20px;
+}
+
+
+/* payment */
+
+.payment-options {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    border: 1px solid #ddd;
+}
+
+.options-available {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0px;
+}
+
+.credit-card-details {
+    width: 100%;
+    padding: 10px;
+    background-color: #eee;
+}
+
+.credit-card-details input {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.delivery-bottom-text {
+    width: 80%;
+}
+
+
+.payment-title {
+    padding: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #ddd;
+}
+
+.first {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.second {
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.payContent {
+    width: 100%;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease, padding 0.3s ease;
+    padding: 0;
+}
+
+.payContent.payShow {
+    max-height: 600px;
+}
+
+.expiry-code {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.paypal-icon {
+    width: 30px;
+}
+
+.paypal-sezzle-details {
+    padding: 10px;
+    background-color: #eee;
+}
+
+.payments-last-section {
+    margin: 30px 0px;
+}
+
+.last-section {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.save-info {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.remember-me {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.info-save {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    border: 1px solid #ddd;
+    padding: 20px;
+
+}
+
+.creditCard-btn {
+    margin-top: 10px;
+    padding: 20px;
+    width: 100%;
+    background-color: #74D2E7;
+    border: none;
+    outline: none;
+}
+
+.paypal-btn {
+    margin-top: 10px;
+    padding: 20px;
+    width: 100%;
+    background-color: #0070ba;
+    border: none;
+    outline: none;
+}
+
+
+
+
+
+.main-content-right {
+    min-height: 100vh;
+    width: 50%;
+    display: flex;
+    justify-content: flex-start;
+    background-color: #E8F6F9;
+    padding-left: 30px;
+}
+
+.right-container {
+    width: 70%;
+    padding: 10px;
+}
+
+
+
+.each-itemm {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.each-itemm img {
+    max-width: 100px;
+}
+
+.image-name {
+    width: 70%;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.price {
+    width: 30%;
+    text-align: end;
+}
+
+
+.discount {
+    display: flex;
+    align-items: stretch;
+    /* Ensure children stretch to the same height */
+    gap: 10px;
+    /* Optional: Add gap between input and button */
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.discount input {
+    flex: 1;
+    /* Input takes available space */
+    padding: 20px;
+    box-sizing: border-box;
+    /* Include padding in the element's total width and height */
+}
+
+.discount button {
+    padding: 0 20px;
+    /* Add horizontal padding only */
+    box-sizing: border-box;
+    background-color: rgb(232, 246, 249);
+    border: 0.5px solid rgb(116, 210, 231);
+    outline: none;
+
+    /* Ensure button height matches the input's height by setting padding and other properties to match */
+}
